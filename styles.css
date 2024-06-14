@@ -71,3 +71,49 @@ h1 span {
     font-size: 25px;
     margin-left: 3px;
 }
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 60px 5%;
+    background-color: black;
+    justify-content: space-between;
+}
+
+section img {
+    width: 500px;
+    height: 500px;
+    margin-right: 50px;
+    border-radius: 20%;
+    border: 3px solid #EF3347;
+}
+
+section div h2 {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+section div p {
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+section div button {
+    background-color: #EF3347;
+    color: #ffffff;
+    height: 50px;
+    font-size: 20px;
+    width: 180px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+section div button:hover {
+    background-color: black;
+    border: 3px solid #EF3347;
+    transition: 0.5s;
+}
