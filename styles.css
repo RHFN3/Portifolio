@@ -12,14 +12,15 @@
     background-color: #191919;
     background-size: cover;
     background-position: center;
+    background-position-x: 70px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 10px;
+    margin-right: -10px;
     padding-top: 20px;
 }
 
@@ -81,9 +82,9 @@ section {
 }
 
 section img {
-    width: 500px;
-    height: 500px;
-    margin-right: 50px;
+    width: 400px;
+    height: 400px;
+    margin-right: 100px;
     border-radius: 20%;
     border: 3px solid #EF3347;
 }
@@ -94,7 +95,7 @@ section div h2 {
 }
 
 section div p {
-    color: #ffffff;
+    color: #9e9e9e;
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -116,4 +117,62 @@ section div button:hover {
     background-color: black;
     border: 3px solid #EF3347;
     transition: 0.5s;
+}
+
+.projetos {
+    background-color: #191919;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.projetos h2 {
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+}
+
+.card {
+    background-color: black;
+    height: 365px;
+    width: 335px;
+    border-radius: 30px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+.card img {
+    width: 100px;
+}
+
+.card h5 {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.card p {
+    color: #9e9e9e;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card a {
+    background-color: #EF3347;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card a:hover {
+    background-color: black;
+    border: 3px solid #EF3347;
+    transition: 0.5s;
+}
+
+.capsulaCard {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 150px;
 }
